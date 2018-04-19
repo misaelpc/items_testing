@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C9AE45B2086EF6C003716B0 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE45A2086EF6C003716B0 /* Error.swift */; };
+		0C9AE45D20880B0F003716B0 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE45C20880B0F003716B0 /* MusicViewController.swift */; };
+		0C9AE45F20880B76003716B0 /* TestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE45E20880B76003716B0 /* TestExtension.swift */; };
+		0C9AE46120882736003716B0 /* NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE46020882736003716B0 /* NetworkTests.swift */; };
+		0C9AE46320883DD1003716B0 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE46220883DD1003716B0 /* Music.swift */; };
+		0C9AE465208842A9003716B0 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE464208842A9003716B0 /* Song.swift */; };
+		0C9AE46920885BA5003716B0 /* MusicListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE46820885BA5003716B0 /* MusicListUITests.swift */; };
+		0C9AE46A20885D54003716B0 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE45C20880B0F003716B0 /* MusicViewController.swift */; };
+		0C9AE46B20885D7A003716B0 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE46220883DD1003716B0 /* Music.swift */; };
+		0C9AE46C20885D7D003716B0 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE464208842A9003716B0 /* Song.swift */; };
+		0C9AE46E2088DA2F003716B0 /* 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C9AE46D2088DA2F003716B0 /* 1.txt */; };
 		0CC8C7992085968200CB4F2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8C7982085968200CB4F2B /* AppDelegate.swift */; };
 		0CC8C79B2085968200CB4F2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8C79A2085968200CB4F2B /* ViewController.swift */; };
 		0CC8C79E2085968200CB4F2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC8C79C2085968200CB4F2B /* Main.storyboard */; };
@@ -36,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C9AE45A2086EF6C003716B0 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		0C9AE45C20880B0F003716B0 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		0C9AE45E20880B76003716B0 /* TestExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtension.swift; sourceTree = "<group>"; };
+		0C9AE46020882736003716B0 /* NetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTests.swift; sourceTree = "<group>"; };
+		0C9AE46220883DD1003716B0 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		0C9AE464208842A9003716B0 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		0C9AE46820885BA5003716B0 /* MusicListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListUITests.swift; sourceTree = "<group>"; };
+		0C9AE46D2088DA2F003716B0 /* 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.txt; sourceTree = "<group>"; };
 		0CC8C7952085968200CB4F2B /* MyTelephone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTelephone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC8C7982085968200CB4F2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CC8C79A2085968200CB4F2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +136,7 @@
 			children = (
 				0CC8C7AD2085968500CB4F2B /* MyTelephoneTests.swift */,
 				0CC8C7AF2085968500CB4F2B /* Info.plist */,
+				0C9AE46020882736003716B0 /* NetworkTests.swift */,
 			);
 			path = MyTelephoneTests;
 			sourceTree = "<group>";
@@ -124,8 +144,11 @@
 		0CC8C7B72085968500CB4F2B /* MyTelephoneUITests */ = {
 			isa = PBXGroup;
 			children = (
+				0C9AE46D2088DA2F003716B0 /* 1.txt */,
 				0CC8C7B82085968500CB4F2B /* MyTelephoneUITests.swift */,
 				0CC8C7BA2085968500CB4F2B /* Info.plist */,
+				0C9AE45E20880B76003716B0 /* TestExtension.swift */,
+				0C9AE46820885BA5003716B0 /* MusicListUITests.swift */,
 			);
 			path = MyTelephoneUITests;
 			sourceTree = "<group>";
@@ -134,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				0CC8C79A2085968200CB4F2B /* ViewController.swift */,
+				0C9AE45C20880B0F003716B0 /* MusicViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -150,6 +174,9 @@
 			children = (
 				0CC8C7CB2085972800CB4F2B /* User.swift */,
 				0CC8C7CD2085A02E00CB4F2B /* Session.swift */,
+				0C9AE45A2086EF6C003716B0 /* Error.swift */,
+				0C9AE46220883DD1003716B0 /* Music.swift */,
+				0C9AE464208842A9003716B0 /* Song.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -292,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9AE46E2088DA2F003716B0 /* 1.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +330,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9AE45D20880B0F003716B0 /* MusicViewController.swift in Sources */,
 				0CC8C7CE2085A02E00CB4F2B /* Session.swift in Sources */,
 				0CC8C79B2085968200CB4F2B /* ViewController.swift in Sources */,
 				0CC8C7992085968200CB4F2B /* AppDelegate.swift in Sources */,
+				0C9AE465208842A9003716B0 /* Song.swift in Sources */,
+				0C9AE46320883DD1003716B0 /* Music.swift in Sources */,
+				0C9AE45B2086EF6C003716B0 /* Error.swift in Sources */,
 				0CC8C7CC2085972800CB4F2B /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9AE46120882736003716B0 /* NetworkTests.swift in Sources */,
 				0CC8C7AE2085968500CB4F2B /* MyTelephoneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +355,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CC8C7B92085968500CB4F2B /* MyTelephoneUITests.swift in Sources */,
+				0C9AE45F20880B76003716B0 /* TestExtension.swift in Sources */,
+				0C9AE46920885BA5003716B0 /* MusicListUITests.swift in Sources */,
+				0C9AE46C20885D7D003716B0 /* Song.swift in Sources */,
+				0C9AE46B20885D7A003716B0 /* Music.swift in Sources */,
+				0C9AE46A20885D54003716B0 /* MusicViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

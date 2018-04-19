@@ -19,4 +19,11 @@ class User {
     }
     return false
   }
+  
+  static func fetchSongs() throws {
+    guard let token = Session.sharedInstance.token else {
+      throw UserError.notSessionAvailable
+    }
+    debugPrint(token)
+  }
 }
